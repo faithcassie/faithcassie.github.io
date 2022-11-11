@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html">faith nguyen</a>
+        <div class="menu">
+          <a href="#prj">Projects</a>
+          <a href="#fname">Say hi!</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="profile">
+        <div class="bio">
+          <h1>
+            a <span style="color: #a54e4d;">front-end</span> web developer and <span style="color: #a54e4d;">UI/UX</span>
+            designer, born and raised in
+            <span style="color: #a54e4d;">Saigon</span>, based in
+            <span style="color: #a54e4d;">Texas</span>, love
+            <span style="color: #a54e4d;">traveling</span> and
+            <span style="color: #a54e4d;">drinking coffee </span>at cafes all over the world.</br>
+            
+          </h1>
+        </div>
+        <img src="./images/coffee.svg" alt="profile-pic" />
+        <div class="arrow">
+          <img src="./images/arrow.svg" alt="" />
+        </div>
+      </div>
+      <div class="projects" id="prj">
+        <h2>Projects</h2>
+        <div class="item left">
+          <img
+            src="./images/1.png"
+            width="100%"
+            height="auto"
+            alt="homegrown logo"
+          />
+          <div class="details">
+            <h3>WEB DESIGN</h3>
+            <a href="#">homegrown</a>
+            <p>
+              Homegrown Gardening is a collective of 15 home gardening
+              enthusiasts who are sharing their knowledge and experience with
+              the world.
+            </p>
+          </div>
+        </div>
+        <div class="item right">
+          <img
+            src="./images/2.png"
+            width="100%"
+            height="100%"
+            alt="homegrown logo"
+          />
+          <div class="details">
+            <h3>PRODUCT DESIGN</h3>
+            <a href="#">streaming service</a>
+            <p>
+              Zing- a new streaming service that offers the whole user
+              experience seamlessly.
+            </p>
+          </div>
+        </div>
+        <div class="item left">
+          <img
+            src="./images/3.png"
+            width="100%"
+            height="100%"
+            alt="color-blindness"
+          />
+          <div class="details">
+            <h3>CASE STUDY</h3>
+            <a href="#">color blindness</a>
+            <p>
+              A research about how color blindness affecting user experience in
+              digital world, based on school website.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="part-three">
+        <div class="slogan">
+          <h1>Join me and create things that make people feel good!</h1>
+        </div>
+        <div class="contact-form">
+          <form action="">
+            <input
+              type="text"
+              id="fname"
+              name="fname"
+              placeholder="What's your name?"
+            />
+            <br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your email?"
+            />
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Leave me a message. :)"
+            ></textarea>
+            <br />
+            <button class="submit" type="button">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <span>All rights reserved. 2022</span>
+    </footer>
+  </body>
+</html>
