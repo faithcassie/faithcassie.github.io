@@ -17,9 +17,15 @@
     }
 }
 
-.bio h2 {
+h2 {
     font-family: "Playfair display", serif;
     color: #a54e4d;
+}
+.bottom {
+    bottom: 0;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 

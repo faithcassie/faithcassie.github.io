@@ -35,12 +35,14 @@
           <h1>Join me and create things that make people feel good!</h1>
         </div>
         <div class="contact-form">
-          <form action="">
+          <form action="https://formsubmit.co/faithc.nguyen@gmail.com" method="POST">
+            <input type="hidden" name="_next" value="https://faithcassie.github.io/thanks.html">
             <input
               type="text"
               id="fname"
               name="fname"
               placeholder="What's your name?"
+              required
             />
             <br />
             <input
@@ -48,6 +50,7 @@
               id="email"
               name="email"
               placeholder="Your email?"
+              required
             />
             <br />
             <textarea
@@ -56,9 +59,10 @@
               cols="30"
               rows="10"
               placeholder="Leave me a message. :)"
+              required
             ></textarea>
             <br />
-            <button class="submit" type="button">
+            <button class="submit" type="submit">
               Submit
             </button>
           </form>
