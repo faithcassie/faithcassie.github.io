@@ -1,0 +1,44 @@
+/* Mobile & Tablet */
+@media only screen and (max-width:1235px){
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-me img {
+        width: 70%;
+    }
+    .bio {
+        padding-top: 3rem;
+    }
+    
+    .part-three{
+        padding: 0 2rem;
+    }
+}
+
+.bio h2 {
+    font-family: "Playfair display", serif;
+    color: #a54e4d;
+}
+
+
+/* Desktop */
+@media only screen and (min-width: 1236px) {
+    .about-me {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* background-color: red; */
+        padding-bottom: 5rem;
+    }
+    .about-me img {
+        width: 40%;
+        /* background-color: blue; */
+    }
+    .bio {
+        width: 50%;
+        /* background-color: green; */
+    }
+}

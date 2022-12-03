@@ -73,19 +73,24 @@ nav > a:hover {
 }
 
 .bio {
-  width: 80%;
+  width: 60%;
 }
 
 .bio h1 {
   font-family: "Playfair display", serif;
-  font-size: 2rem;
+  font-size: 1.25rem;
   font-weight: 500;
   text-align: center;
   padding-top: 35%;
   margin: 0;
 }
-.arrow img {
+.arrow {
+  text-align: center;
+}
+.arrow img{
+
   padding-bottom: 15%;
+  text-align: center;
 }
 .profile img {
   width: 50%;
@@ -126,11 +131,13 @@ nav > a:hover {
 .details a {
   text-decoration: none;
   font-size: 1.875rem;
-  color: #a54e4d;
+  color: black;
   margin: 0;
   padding-top: 5px;
 }
-
+.details span {
+  color: #a54e4d;
+}
 .details p {
   margin: 0;
   padding-top: 5px;
@@ -214,13 +221,13 @@ footer {
     min-height: 550px;
   }
   .profile img {
-    width: 30%;
+    width: 25%;
     height: 50%;
     position: absolute;
     bottom: 20px;
     right: 0;
     z-index: -3;
-    padding: 0;
+    padding: 0 2rem;
   }
   .arrow img {
     width: 100%;
