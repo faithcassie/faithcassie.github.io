@@ -101,7 +101,7 @@ main {
     font-size: 1.2rem;
 }
 #body-content img {
-    width: 90%;
+    width: 100%;
 }
 .center {
     display: block;
@@ -124,7 +124,7 @@ main {
         margin-right: auto;
     }
     #body-content img {
-        width: 80%;
+        width: 100%;
     }
 }
 @media only screen and (max-width: 448px ) {
