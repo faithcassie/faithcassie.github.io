@@ -8,7 +8,7 @@
     box-sizing: inherit;
 }
   
-/* mobile */
+/* tablet */
 body {
     font-family: Lato, sans-serif;
     font-size: 16px;
@@ -100,6 +100,14 @@ main {
 #body-content h2 {
     font-size: 1.2rem;
 }
+#body-content img {
+    width: 90%;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /* Desktop */
 @media only screen and (min-width: 1236px) {
@@ -115,10 +123,15 @@ main {
         margin-left: auto;
         margin-right: auto;
     }
+    #body-content img {
+        width: 80%;
+    }
 }
 @media only screen and (max-width: 448px ) {
     #body-content {
         margin: 4rem 10%;
     }
-
+    #body-content img {
+        width: 100%;
+    }
 }
